@@ -163,13 +163,16 @@ p {
     border: 0;
   }
 }
-#openbook{
-  margin:auto;
-  top:65%;
-  left:45%;
+
+#openbook {
+  margin: auto;
+  top: 75%;
+  left: 52.5%;
   transform: translate(-50%, -50%);
+  text-align: center;
   position: absolute;
 }
+
 #fontset {
   font-size: 3vw;
 }
@@ -192,6 +195,14 @@ p {
   font-size: 1vw;
 }
 
+.righttopbutton{
+  margin: auto;
+  top: 50%;
+  right: 85%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  position: absolute;
+}
 /* @media (min-width: 300px) and (max-width :560px) {
   #footerlogo1{
     min-width:70px;
