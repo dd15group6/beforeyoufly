@@ -2,10 +2,22 @@ nav ul li i {
 margin-right: 10px;
 }
 
+#title{
+	margin:auto;
+  top:10%;
+
+	transform: translate(-50%, -50%);
+	position: absolute;
+
+
+}
+
+
+
 #analy{
 	margin:auto;
 	width:100%;
-	left:50%;
+	left:54%;
 	top:50%;
 	transform: translate(-50%, -50%);
 	position: absolute;

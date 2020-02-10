@@ -169,6 +169,15 @@ p {
   }
 }
 
+
+.intrototle{
+  margin: auto;
+  top: 13%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
 #openbook {
   margin: auto;
   top: 65%;
@@ -179,7 +188,7 @@ p {
 }
 
 #fontset {
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 
 #fontset2 {
