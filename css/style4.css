@@ -2,6 +2,17 @@ nav ul li i {
 margin-right: 10px;
 }
 
+#analy{
+	margin:auto;
+	width:100%;
+	left:50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+#图层_1{
+	width:100%;
+}
 /* Overlay colors */
 .color1 {
 	background: rgba(0,0,0,0.9);
