@@ -14,7 +14,7 @@
     vid = createVideo('3-0-0downtown.mp4');
     vid.hide();
 
-    vid.size(600, 300);
+    vid.size(1920, 1080);
     vid.autoplay(true);
     vid.onended(choices);
     createbtnExit();

@@ -14,7 +14,7 @@
     vid = createVideo("4-1-0Park.mp4");
     vid.hide();
 
-    vid.size(600, 300);
+    vid.size(1920, 1080);
     vid.autoplay(true);
     vid.onended(choices);
 

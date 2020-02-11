@@ -14,7 +14,7 @@
     vid = createVideo('3-1-2neigWin');
     vid.hide();
 
-    vid.size(600, 300);
+    vid.size(1920, 1080);
     vid.autoplay(true);
     vid.onended(choices);
     createbtnExit();
