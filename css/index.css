@@ -47,7 +47,7 @@ h1 { width: 50rem; overflow: hidden; white-space: nowrap; border-right: 0.2em so
 
   #nextst{
     margin:auto;
-    top:70%;
+    top:78%;
     left:78%;
     transform: translate(-50%, -50%);
     position: absolute;
@@ -70,11 +70,15 @@ h1 { width: 50rem; overflow: hidden; white-space: nowrap; border-right: 0.2em so
   position: absolute;
 
 }
+
+
 a:link {
 
 text-decoration: none;
 }
 a:hover {
+  /* opacity:0.6;
+filter:alpha(opacity=40); */
   text-decoration: underline;
 }
 
