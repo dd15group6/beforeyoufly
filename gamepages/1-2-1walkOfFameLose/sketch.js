@@ -14,7 +14,7 @@
     vid = createVideo('1-2-1walkOfFameLose.mp4');
     vid.hide();
 
-    vid.size(600, 300);
+    vid.size(1920, 1080);
     vid.autoplay(true);
     vid.onended(choices);
 
@@ -23,6 +23,7 @@
     button2 = select("#opt4-2").style("display", "none");
     // button3 = select("#opt4-3").style("display", "none");
     // button4 = select("#opt4-4").style("display", "none");
+        createbtnExit();
   }
 
   function draw() {

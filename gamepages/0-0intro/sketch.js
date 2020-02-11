@@ -12,7 +12,7 @@
     vid = createVideo("0-0intro.mp4");
     vid.hide();
 
-    vid.size(600, 300);
+    vid.size(1920, 1080);
     vid.autoplay(true);
     vid.onended(choices);
 
@@ -33,7 +33,7 @@
   }
 
 
-  //pause
+  // pause
   // function mouseClicked() {
   //   if (!playing) {
   //     vid.play();

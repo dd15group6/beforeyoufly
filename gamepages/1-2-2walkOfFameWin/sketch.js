@@ -14,10 +14,10 @@
     vid = createVideo('1-2-2walkOfFameWin.mp4');
     vid.hide();
 
-    vid.size(600, 300);
+    vid.size(1920, 1080);
     vid.autoplay(true);
     vid.onended(choices);
-
+    createbtnExit();
 
     button1 = select("#opt4-1").style("display", "none");
     button2 = select("#opt4-2").style("display", "none");
