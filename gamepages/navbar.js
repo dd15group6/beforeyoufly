@@ -11,13 +11,3 @@ function createbtnExit() {
 function exitGame() {
   self.location = "../../page4.html";
 }
-
-// function mouseClicked() {
-//   if (!playing) {
-//     vid.play();
-//     playing = true;
-//   } else {
-//     vid.pause();
-//     playing = false;
-//   }
-// }

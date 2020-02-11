@@ -101,7 +101,7 @@ body,
 .slideshow ul,
 .slideshow ul li,
 .slide {
-	height: 100%;
+	height: 80%;
 	min-height: 480px;
 }
 
