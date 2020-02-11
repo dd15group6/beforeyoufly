@@ -23,6 +23,7 @@
     button2 = select("#opt4-2").style("display", "none");
     button3 = select("#opt4-3").style("display", "none");
     button4 = select("#opt4-4").style("display", "none");
+        createbtnExit();
   }
 
   function draw() {

@@ -17,7 +17,7 @@
     vid.size(600, 300);
     vid.autoplay(true);
     vid.onended(choices);
-
+    createbtnExit();
 
     button1 = select("#opt4-1").style("display", "none");
     button2 = select("#opt4-2").style("display", "none");
