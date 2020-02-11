@@ -5417,21 +5417,22 @@ Anna Riboldi<br>
     console.log("Page Ready!");
     // $("#图层_1 text").hide();
     // $("#图层_1").children().hide();
-    $(".sta0").siblings().hide();
-    $(".sta0").show();
+    $(".cls-32").siblings().hide();
+    $(".cls-32").show();
     // $("#图层_1 image").css("width", 150);
     // $("#图层_1 circle").hide();
 
-   $(".sta0").toggle(function () {
+   $(".cls-32").toggle(function () {
       // $("#图层_1 image").css("width", 550);
       // $("#图层_1 image").hide();
       console.log("Hover!");
-
+      $(".cls-32").siblings().hide();
+      $(".cls-32").show();
       $(this).siblings().show();
       // $("#图层_1 circle").hide();
     }, function () {
         $(this).siblings().hide();
-        $(".cls-1").show();
+        $(".cls-32").show();
     });
   });
   </script>
